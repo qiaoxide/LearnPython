@@ -7,7 +7,7 @@
 @Version :   1.0
 @Contact :   qiaoxide@126.com
 @License :   (C)Copyright 2021-2022, ThreeAtom
-@Desc    :   None
+@Desc    :   双向队列
 '''
 
 # here put the import lib
@@ -22,5 +22,6 @@ def simple():
     print(q)
     q.append(4)
     print(q)
+
 
 simple()
